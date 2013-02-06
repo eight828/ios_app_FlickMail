@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74033891617F5E100ED2B14 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74033881617F5E100ED2B14 /* QuartzCore.framework */; };
+		E78FAFF01582E0B700B00179 /* MailEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78FAFEF1582E0B700B00179 /* MailEditViewController.m */; };
+		E7A0001C15BA63F20083BDC5 /* AddNewWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A0001B15BA63F20083BDC5 /* AddNewWordViewController.m */; };
+		E7A08A8215F3950400F6F4D4 /* AppleMan.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A08A8015F3950400F6F4D4 /* AppleMan.png */; };
+		E7A08A8315F3950400F6F4D4 /* AppleMan_Retina.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A08A8115F3950400F6F4D4 /* AppleMan_Retina.png */; };
+		E7A08A8615F3950F00F6F4D4 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A08A8515F3950F00F6F4D4 /* paper.png */; };
+		E7A9027A158E093F00039240 /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A90279158E093F00039240 /* WordViewController.m */; };
 		E7E43CA7158268C50032C411 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E43CA6158268C50032C411 /* UIKit.framework */; };
 		E7E43CA9158268C50032C411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E43CA8158268C50032C411 /* Foundation.framework */; };
 		E7E43CAB158268C50032C411 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E43CAA158268C50032C411 /* CoreGraphics.framework */; };
@@ -18,6 +25,7 @@
 		E7E43CC1158268C70032C411 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E43CA8158268C50032C411 /* Foundation.framework */; };
 		E7E43CC9158268C70032C411 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E43CC7158268C70032C411 /* InfoPlist.strings */; };
 		E7E43CCC158268C80032C411 /* FlickMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E43CCB158268C80032C411 /* FlickMailTests.m */; };
+		E7F3F5FA1584CB4A00F503E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F3F5F91584CB4A00F503E1 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,22 +39,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E74033881617F5E100ED2B14 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E78FAFEE1582E0B700B00179 /* MailEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailEditViewController.h; sourceTree = "<group>"; };
+		E78FAFEF1582E0B700B00179 /* MailEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailEditViewController.m; sourceTree = "<group>"; };
+		E7A0001A15BA63F20083BDC5 /* AddNewWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewWordViewController.h; sourceTree = "<group>"; };
+		E7A0001B15BA63F20083BDC5 /* AddNewWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewWordViewController.m; sourceTree = "<group>"; };
+		E7A08A8015F3950400F6F4D4 /* AppleMan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleMan.png; sourceTree = "<group>"; };
+		E7A08A8115F3950400F6F4D4 /* AppleMan_Retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleMan_Retina.png; sourceTree = "<group>"; };
+		E7A08A8515F3950F00F6F4D4 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		E7A90278158E093F00039240 /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
+		E7A90279158E093F00039240 /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
 		E7E43CA2158268C50032C411 /* FlickMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlickMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E43CA6158268C50032C411 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7E43CA8158268C50032C411 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E7E43CAA158268C50032C411 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E7E43CAE158268C50032C411 /* FlickMail-Info.plist */ = {isa = PBXFileReference; path = "FlickMail-Info.plist"; sourceTree = "<group>"; };
+		E7E43CAE158268C50032C411 /* FlickMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickMail-Info.plist"; sourceTree = "<group>"; };
 		E7E43CB0158268C60032C411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7E43CB2158268C60032C411 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E7E43CB4158268C60032C411 /* FlickMail-Prefix.pch */ = {isa = PBXFileReference; path = "FlickMail-Prefix.pch"; sourceTree = "<group>"; };
-		E7E43CB5158268C60032C411 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7E43CB4158268C60032C411 /* FlickMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlickMail-Prefix.pch"; sourceTree = "<group>"; };
+		E7E43CB5158268C60032C411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E7E43CB6158268C60032C411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E7E43CBD158268C70032C411 /* FlickMailTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickMailTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E43CBE158268C70032C411 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		E7E43CC6158268C70032C411 /* FlickMailTests-Info.plist */ = {isa = PBXFileReference; path = "FlickMailTests-Info.plist"; sourceTree = "<group>"; };
+		E7E43CC6158268C70032C411 /* FlickMailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlickMailTests-Info.plist"; sourceTree = "<group>"; };
 		E7E43CC8158268C70032C411 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E7E43CCA158268C70032C411 /* FlickMailTests.h */ = {isa = PBXFileReference; path = FlickMailTests.h; sourceTree = "<group>"; };
+		E7E43CCA158268C70032C411 /* FlickMailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlickMailTests.h; sourceTree = "<group>"; };
 		E7E43CCB158268C80032C411 /* FlickMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickMailTests.m; sourceTree = "<group>"; };
+		E7F3F5F91584CB4A00F503E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E74033891617F5E100ED2B14 /* QuartzCore.framework in Frameworks */,
+				E7F3F5FA1584CB4A00F503E1 /* MessageUI.framework in Frameworks */,
 				E7E43CA7158268C50032C411 /* UIKit.framework in Frameworks */,
 				E7E43CA9158268C50032C411 /* Foundation.framework in Frameworks */,
 				E7E43CAB158268C50032C411 /* CoreGraphics.framework in Frameworks */,
@@ -73,9 +94,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7A08A7F15F3950400F6F4D4 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E7A08A8015F3950400F6F4D4 /* AppleMan.png */,
+				E7A08A8115F3950400F6F4D4 /* AppleMan_Retina.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		E7A08A8415F3950F00F6F4D4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E7A08A8515F3950F00F6F4D4 /* paper.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E7E43C97158268C40032C411 = {
 			isa = PBXGroup;
 			children = (
+				E7A08A7F15F3950400F6F4D4 /* icons */,
+				E7A08A8415F3950F00F6F4D4 /* images */,
 				E7E43CAC158268C50032C411 /* FlickMail */,
 				E7E43CC4158268C70032C411 /* FlickMailTests */,
 				E7E43CA5158268C50032C411 /* Frameworks */,
@@ -95,6 +135,8 @@
 		E7E43CA5158268C50032C411 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E74033881617F5E100ED2B14 /* QuartzCore.framework */,
+				E7F3F5F91584CB4A00F503E1 /* MessageUI.framework */,
 				E7E43CA6158268C50032C411 /* UIKit.framework */,
 				E7E43CA8158268C50032C411 /* Foundation.framework */,
 				E7E43CAA158268C50032C411 /* CoreGraphics.framework */,
@@ -108,6 +150,12 @@
 			children = (
 				E7E43CB5158268C60032C411 /* AppDelegate.h */,
 				E7E43CB6158268C60032C411 /* AppDelegate.m */,
+				E78FAFEE1582E0B700B00179 /* MailEditViewController.h */,
+				E78FAFEF1582E0B700B00179 /* MailEditViewController.m */,
+				E7A90278158E093F00039240 /* WordViewController.h */,
+				E7A90279158E093F00039240 /* WordViewController.m */,
+				E7A0001A15BA63F20083BDC5 /* AddNewWordViewController.h */,
+				E7A0001B15BA63F20083BDC5 /* AddNewWordViewController.m */,
 				E7E43CAD158268C50032C411 /* Supporting Files */,
 			);
 			path = FlickMail;
@@ -214,6 +262,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E43CB1158268C60032C411 /* InfoPlist.strings in Resources */,
+				E7A08A8215F3950400F6F4D4 /* AppleMan.png in Resources */,
+				E7A08A8315F3950400F6F4D4 /* AppleMan_Retina.png in Resources */,
+				E7A08A8615F3950F00F6F4D4 /* paper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +301,9 @@
 			files = (
 				E7E43CB3158268C60032C411 /* main.m in Sources */,
 				E7E43CB7158268C60032C411 /* AppDelegate.m in Sources */,
+				E78FAFF01582E0B700B00179 /* MailEditViewController.m in Sources */,
+				E7A9027A158E093F00039240 /* WordViewController.m in Sources */,
+				E7A0001C15BA63F20083BDC5 /* AddNewWordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +365,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -329,7 +383,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -342,7 +396,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlickMail/FlickMail-Prefix.pch";
 				INFOPLIST_FILE = "FlickMail/FlickMail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -353,7 +409,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlickMail/FlickMail-Prefix.pch";
 				INFOPLIST_FILE = "FlickMail/FlickMail-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -402,7 +460,7 @@
 				E7E43CCE158268C80032C411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E7E43CCF158268C80032C411 /* Build configuration list for PBXNativeTarget "FlickMail" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +469,7 @@
 				E7E43CD1158268C80032C411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		E7E43CD2158268C80032C411 /* Build configuration list for PBXNativeTarget "FlickMailTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +478,7 @@
 				E7E43CD4158268C80032C411 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
